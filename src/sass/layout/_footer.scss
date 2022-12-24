@@ -5,6 +5,10 @@
     @media screen and (min-width: 768px) {
         padding-top: 278px;
     }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
     @media screen and (min-width: 1200px) {
         padding-top: 474px;
     }
@@ -32,7 +36,11 @@
 }
 
 .footer-location__button {
+<<<<<<< Updated upstream
     padding: 12px 38px;
+=======
+    padding: 12px 39px;
+>>>>>>> Stashed changes
 
     transition-property: background-color;
     transition-duration: 250ms;
@@ -49,7 +57,12 @@
 }
 
 .footer-franchise__button {
+<<<<<<< Updated upstream
     padding: 10px 54px;
+=======
+    padding: 10px 53px;
+    border: 2px solid #F8D24E;
+>>>>>>> Stashed changes
 
     transition-property: border;
     transition-duration: 250ms;
@@ -73,7 +86,11 @@
     }
 }
 
+<<<<<<< Updated upstream
 .icon-biger {
+=======
+.icon-arrow-right {
+>>>>>>> Stashed changes
     margin-left: 4px;
     width: 12px;
     height: 12px;
@@ -84,8 +101,13 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+<<<<<<< Updated upstream
 .footer-location__button:focus .icon-biger,
 .footer-franchise__button:focus .icon-biger {
+=======
+.footer-location__button:focus .icon-arrow-right,
+.footer-franchise__button:focus .icon-arrow-right {
+>>>>>>> Stashed changes
     fill: #FCFCFC;
 }
 
@@ -296,6 +318,7 @@
     @media screen and (max-width: 767px) {
         width: 140px;
     }
+<<<<<<< Updated upstream
     
     @media screen and (min-width: 768px) {
         margin-top: 12px;
@@ -367,3 +390,10 @@ button {
     cursor: pointer;
     background-color: inherit;
 }*/
+=======
+
+    @media screen and (min-width: 768px) {
+        margin-top: 12px;
+    }
+}
+>>>>>>> Stashed changes
