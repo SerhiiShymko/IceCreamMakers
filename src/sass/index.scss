@@ -6,6 +6,10 @@
 // mixins
 @import './utils/mixins';
 
+// components
+@import './components/container';
+@import './components/button';
+
 // layout
 @import './layout/header-hero';
 @import './layout/product';
@@ -22,6 +26,4 @@
 @import './layout/modal-product';
 @import './layout/modal-video';
 
-// components
-@import './components/container';
-@import './components/button';
+
