@@ -34,38 +34,11 @@
 .footer-locations__button {
     padding: 10px 38px;
     border: none;
-
-    transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-    &:hover,
-    &:focus {
-        background-color: #0A8817;
-    }
-
-    &:focus {
-        border-color: #0A8817;
-        color: #FCFCFC;
-    }
 }
 
 .footer-franchise__button {
     padding: 10px 53px;
     border: 2px solid #F8D24E;
-
-    transition-property: border;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-    &:hover,
-    &:focus {
-        border: 2px solid #0A8817;
-    }
-
-    &:focus {
-        color: #FCFCFC;
-    }
 
     @media screen and (max-width: 767px) {
         margin-top: 16px;
@@ -87,7 +60,7 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-location__button:focus .icon-arrow-right,
+.footer-locations__button:focus .icon-arrow-right,
 .footer-franchise__button:focus .icon-arrow-right {
     fill: #FCFCFC;
 }
