@@ -81,34 +81,34 @@
 }
 
 .advantages__item:nth-child(1)::before{
-    background-image: url(/src/images/about/icon-cow\(1x\).png);
+    background-image: url(/src/images/about/icon-cow1x.png);
 }
 
 @media (min-device-pixel-ratio:2), (min-resolution:192dpi), (min-resolution:2dppx){
     .advantages__item:nth-child(1)::before {
-        background-image: url(/src/images/about/icon-cow\(2x\).png);
+        background-image: url(/src/images/about/icon-cow2x.png);
         background-size: 36px 36px;
     }
 }
 
 .advantages__item:nth-child(2)::before{
-    background-image: url(/src/images/about/icon-weight\(1x\).png);
+    background-image: url(/src/images/about/icon-weight1x.png);
 }
 
 @media (min-device-pixel-ratio:2), (min-resolution:192dpi), (min-resolution:2dppx){
     .advantages__item:nth-child(2)::before {
-        background-image: url(/src/images/about/icon-weight\(2x\).png);
+        background-image: url(/src/images/about/icon-weight2x.png);
         background-size: 36px 36px;
     }
 }
 
 .advantages__item:nth-child(3)::before{
-    background-image: url(/src/images/about/icon-ice\(1x\).png);
+    background-image: url(/src/images/about/icon-ice1x.png);
 }
 
 @media (min-device-pixel-ratio:2), (min-resolution:192dpi), (min-resolution:2dppx){
     .advantages__item:nth-child(3)::before {
-        background-image: url(/src/images/about/icon-ice\(2x\).png);
+        background-image: url(/src/images/about/icon-ice2x.png);
         background-size: 36px 36px;
     }
 }
