@@ -1,80 +1,92 @@
-<div class="modal-backdrop is-hidden" data-modal__product-cream>
-    <div class="modal-ingredients">
-        <button type="submit" class="product__modal--close" data-modal__close--product-cream>
-            <svg class="modal-ingredients__close" width="20" height="20">
-                <use href="../src/images/icons.svg#icon-close"></use>
-            </svg>
-        </button>
+<!DOCTYPE html>
+<html lang="">
 
-        <div class="ingredients">
-            <p class="modal-title__ingredient">Chololate icecream</p>
-            <div class="ingredients-img"></div>
-            <ul class="ingredients-box">
-                <li class="ingredients-box__item ingredients-box__item--cream">
-                    <div class="ingredients-box--figure">320</div>
-                    <div class="ingredients-box--text">kcal</div>
-                </li>
-                <li class="ingredients-box__item ingredients-box__item--cream">
-                    <div class="ingredients-box--figure">4g</div>
-                    <div class="ingredients-box--text">Protein...</div>
-                </li>
-                <li class="ingredients-box__item ingredients-box__item--cream">
-                    <div class="ingredients-box--figure">8,2g</div>
-                    <div class="ingredients-box--text">Fats</div>
-                </li>
-                <li class="ingredients-box__item ingredients-box__item--cream">
-                    <div class="ingredients-box--figure">40,4g</div>
-                    <div class="ingredients-box--text">Carbs</div>
-                </li>
-            </ul>
-            <div>
-                <p class="title-ingredient">Ingredients</p>
-                <ul class="ingredient__list">
-                    <li class="ingredient__item">
-                        <p>Milk</p>
-                        <p>100ml</p>
+<head>
+    <title>Test</title>
+</head>
+
+<body>
+    <div class="modal-backdrop is-hidden" data-modal__product-cream>
+        <div class="modal-ingredients">
+            <button type="submit" class="product__modal--close" data-modal__close--product-cream>
+                <svg class="modal-ingredients__close" width="20" height="20">
+                    <use href="../src/images/icons.svg#icon-close"></use>
+                </svg>
+            </button>
+
+            <div class="ingredients">
+                <p class="modal-title__ingredient">Chololate icecream</p>
+                <div class="ingredients-img"></div>
+                <ul class="ingredients-box">
+                    <li class="ingredients-box__item ingredients-box__item--cream">
+                        <div class="ingredients-box--figure">320</div>
+                        <div class="ingredients-box--text">kcal</div>
                     </li>
-                    <li class="ingredient__item">
-                        <p>Belgian chocolate</p>
-                        <p>20g</p>
+                    <li class="ingredients-box__item ingredients-box__item--cream">
+                        <div class="ingredients-box--figure">4g</div>
+                        <div class="ingredients-box--text">Protein...</div>
                     </li>
-                    <li class="ingredient__item">
-                        <p>Cream</p>
-                        <p>150 ml</p>
+                    <li class="ingredients-box__item ingredients-box__item--cream">
+                        <div class="ingredients-box--figure">8,2g</div>
+                        <div class="ingredients-box--text">Fats</div>
                     </li>
-                    <li class="ingredient__item">
-                        <p>Cocoa powder</p>
-                        <p>30g</p>
-                    </li>
-                    <li class="ingredient__item">
-                        <p>Sugar</p>
-                        <p>40g</p>
-                    </li>
-                    <li class="ingredient__item">
-                        <p>Vanilla sugar</p>
-                        <p>10g</p>
+                    <li class="ingredients-box__item ingredients-box__item--cream">
+                        <div class="ingredients-box--figure">40,4g</div>
+                        <div class="ingredients-box--text">Carbs</div>
                     </li>
                 </ul>
+                <div>
+                    <p class="title-ingredient">Ingredients</p>
+                    <ul class="ingredient__list">
+                        <li class="ingredient__item">
+                            <p>Milk</p>
+                            <p>100ml</p>
+                        </li>
+                        <li class="ingredient__item">
+                            <p>Belgian chocolate</p>
+                            <p>20g</p>
+                        </li>
+                        <li class="ingredient__item">
+                            <p>Cream</p>
+                            <p>150 ml</p>
+                        </li>
+                        <li class="ingredient__item">
+                            <p>Cocoa powder</p>
+                            <p>30g</p>
+                        </li>
+                        <li class="ingredient__item">
+                            <p>Sugar</p>
+                            <p>40g</p>
+                        </li>
+                        <li class="ingredient__item">
+                            <p>Vanilla sugar</p>
+                            <p>10g</p>
+                        </li>
+                    </ul>
+                </div>
             </div>
+            <form class="form-ingredients">
+                <div class="form__ingredients">
+                    <div class="form-ingredients__line">
+                        <label for="name" class="form-ingredients__label"></label>
+                        <input type="text" name="name" id="name" placeholder="Name"
+                            class="form-ingredients__input">
+                    </div>
+                    <div class="form-ingredients__line">
+                        <label for="phone" class="form-ingredients__label"></label>
+                        <input type="tel" name="phone" id="phone" placeholder="Phone"
+                            class="form-ingredients__input">
+                    </div>
+                    <div class="form-ingredients__line">
+                        <textarea name="user-text" id="user-text" placeholder="Comment"
+                            class="modal-textarea"></textarea>
+                    </div>
+                </div>
+                <button type="submit" class="header__button--ingredient button">Submit</button>
+            </form>
         </div>
-        <form class="form-ingredients">
-            <div class="form__ingredients">
-                <div class="form-ingredients__line">
-                    <label for="user-name" class="form-ingredients__label"></label>
-                    <input type="text" name="user-name" id="user-name" placeholder="Name"
-                        class="form-ingredients__input">
-                </div>
-                <div class="form-ingredients__line">
-                    <label for="user-tel" class="form-ingredients__label"></label>
-                    <input type="tel" name="user-tel" id="user-tel" placeholder="Phone" class="form-ingredients__input">
-                </div>
-                <div class="form-ingredients__line">
-                    <lable for="user-text" class="form-ingredients__label"></lable>
-                    <textarea name="user-text" id="user-text" placeholder="Comment" class="modal-textarea"></textarea>
-                </div>
-            </div>
-            <button type="submit" class="header__button--ingredient button">Submit</button>
-        </form>
     </div>
-</div>
-</div>
+    <script src="../src/js/modal-product.js"></script>
+</body>
+
+</html>
