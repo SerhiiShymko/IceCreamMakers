@@ -1,40 +1,26 @@
-new Swiper(".reviews-slider", {
-  paginaion: {
-    el: ".swiper-pagination",
-    clickable: true,
-    dynamicBullets: true,
-  },
+$(document).ready(function(){
 
-  slideToClickedSlide: true,
+  $(".slider").slick({
+     arrows: false,
+     dots: true,
+     speed: 500,
+     easing: "ease",
+     infinite: false,
+     autoplay: true,
+     autoplaySpeed: 2500,
+     pauseOnFocus: true,
+     pauseOnHover: true,
+     pauseOnDotsHover: true,
+  });
 
-  hashNavigation: {
-    watchState: true,
-  },
-
-  keyboard: {
-    enabled: true,
-    onlyInViewport: true,
-    pageUpDown: true,
-  },
-
-  mousewheel: {
-    sensitivity: 1,
-    eventsTarget: ".reviews-slider",
-  },
-
-  loop: true,
-  loopedSlides: 3,
-
-  autoplay: {
-    delay: 1000,
-    stopOnLastSlide: false,
-    disableOnInteraction: false,
-  },
-
-  speed: 1000,
-
-  effect: "fade",
-  fadeEffect: {
-    crossFade: true,
-  },
-});
+  $(".top-slider").slick({
+     arrows: false,
+     speed: 500,
+     easing: "ease",
+     infinite: true,
+     autoplay: true,
+     autoplaySpeed: 3000,
+     pauseOnFocus: true,
+     pauseOnHover: true,
+  });
+})
