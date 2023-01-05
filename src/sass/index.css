@@ -1480,9 +1480,9 @@ button {
 
 .reviews__text {
   border-radius: 24px;
-  background-color: var(--primary-background-color);
+  background-color: #84a178;
   text-align: center;
-  color: var(--primary-white-color);
+  color: #fcfcfc;
   letter-spacing: 0.04em;
   margin: 32px 20px;
   padding: 35px 39px;
@@ -1515,7 +1515,7 @@ button {
   font-size: 16px;
   line-height: 186%;
   margin-bottom: 32px;
-  color: var(--primary-text-color);
+  color: #131313;
 }
 @media screen and (max-width: 767px) {
   .reviews__data {
@@ -3179,7 +3179,7 @@ textarea {
 .modal-ingredients {
   position: absolute;
   width: 280px;
-  top: 70%;
+  top: 50%;
   left: 50%;
   padding: 28px 32px;
   transform: translate(-50%, -50%) rotate(0);
@@ -3190,6 +3190,7 @@ textarea {
 }
 @media screen and (min-width: 768px) {
   .modal-ingredients {
+    top: 70%;
     padding: 32px 40px;
     width: 568px;
   }
@@ -3398,7 +3399,6 @@ textarea {
   background: rgba(248, 210, 78, 0.1);
   border: 1px solid #84a178;
   border-radius: 10px;
-  cursor: pointer;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form-ingredients__input:hover {
@@ -3427,7 +3427,6 @@ textarea {
   background: rgba(248, 210, 78, 0.1);
   border: 1px solid #84a178;
   border-radius: 10px;
-  cursor: pointer;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-textarea:hover {

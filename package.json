@@ -18,9 +18,10 @@
     "url": "https://github.com/SerhiiShymko/IceCreamMakers/issues"
   },
   "dependencies": {
+    "jquery": "^3.6.3",
     "modern-normalize": "^1.1.0",
-    "swiper": "^8.4.5",
-    "jquery": "^3.6.3"
+    "slick": "^1.12.2",
+    "swiper": "^8.4.5"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
