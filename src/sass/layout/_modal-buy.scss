@@ -17,7 +17,7 @@
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
   z-index: 1;
-  
+
 }
 
 .buynow__modal--close {
@@ -49,17 +49,19 @@
 
 .buynow__modal {
   position: absolute;
-  top: 50%;
+  top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
   background: #fcfcfc;
   border: 2px solid #f8d24e;
   border-radius: 10px;
   z-index: 2;
+
   @media screen and (max-width: 767px) {
     padding: 28px;
     width: 280px;
   }
+
   @media screen and (min-width: 768px) {
     padding: 32px 54px;
     width: 568px;
@@ -74,11 +76,13 @@
   text-align: center;
   color: #131313;
   margin-bottom: 20px;
+
   @media screen and (max-width: 767px) {
     font-size: 16px;
     line-height: calc(24 / 16);
     margin-bottom: 8px;
   }
+
   @media screen and (min-width: 768px) {
     font-size: 20px;
     line-height: calc(28 / 20);
@@ -93,6 +97,7 @@
   flex-direction: column;
   row-gap: 90px;
   align-items: center;
+
   @media screen and (min-width: 768px) {
     flex-direction: row;
     column-gap: 32px;
@@ -107,6 +112,7 @@
   border: none;
   border-radius: 16px;
 }
+
 .buynow__card-input {
   z-index: 2;
   position: absolute;
@@ -117,13 +123,15 @@
   opacity: 0;
   cursor: pointer;
 
-  &:checked ~ .buynow__box-first {
+  &:checked~.buynow__box-first {
     background-color: #aec6a5;
   }
-  &:checked ~ .buynow__box-second {
+
+  &:checked~.buynow__box-second {
     background-color: #edd276;
   }
-  &:checked ~ .buynow__box-third {
+
+  &:checked~.buynow__box-third {
     background-color: #d6936d;
   }
 }
@@ -259,6 +267,7 @@
     margin-top: 24px;
     margin-bottom: 24px;
   }
+
   @media screen and (min-width: 768px) {
     margin-left: 46px;
     margin-right: 46px;
@@ -272,9 +281,11 @@
   flex-direction: column;
   line-height: 1.4;
   color: #131313;
+
   @media screen and (max-width: 767px) {
     font-size: 12px;
   }
+
   @media screen and (min-width: 768px) {
     font-size: 14px;
   }
@@ -284,6 +295,7 @@
   @media screen and (max-width: 767px) {
     margin-bottom: 12px;
   }
+
   @media screen and (min-width: 768px) {
     margin-bottom: 16px;
   }
@@ -300,9 +312,11 @@
   transition-property: border-color, outline-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
   @media screen and (max-width: 767px) {
     padding: 8px 12px 7px 12px;
   }
+
   @media screen and (min-width: 768px) {
     padding: 11px 16px 11px 16px;
   }
@@ -334,10 +348,12 @@ textarea {
   transition-property: border-color, outline-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
   @media screen and (max-width: 767px) {
     height: 64px;
     padding: 8px 12px 8px 12px;
   }
+
   @media screen and (min-width: 768px) {
     height: 84px;
     padding: 11px 16px 11px 16px;
@@ -362,10 +378,12 @@ textarea {
   margin-right: auto;
   padding: 12px 34px;
   color: #131313;
+
   @media screen and (max-width: 767px) {
     font-size: 12px;
     line-height: 1.25;
   }
+
   @media screen and (min-width: 768px) {
     font-size: 14px;
     line-height: 1.21;
