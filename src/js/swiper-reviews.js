@@ -1,4 +1,4 @@
-// $(document).ready(function () {
+$(document).ready(function () {
 $('.slider').slick({
   arrows: false,
   dots: true,
@@ -22,4 +22,5 @@ $('.top-slider').slick({
   pauseOnFocus: true,
   pauseOnHover: true,
 });
-// });
+});
+
