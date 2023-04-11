@@ -2,6 +2,7 @@
   const mobileMenu = document.querySelector('.js-menu-container');
   const openMenuBtn = document.querySelector('.js-open-menu');
   const closeMenuBtn = document.querySelector('.js-close-menu');
+  const buyNowBtn = document.querySelector('.buy-now-button--mobile');
 
   const toggleMenu = () => {
     const isMenuOpen =
@@ -9,12 +10,13 @@
     openMenuBtn.setAttribute('aria-expanded', !isMenuOpen);
     mobileMenu.classList.toggle('is-open');
 
-    //const scrollLockMethod = !isMenuOpen
-    //  ? 'disableBodyScroll'
-    //  : 'enableBodyScroll';
-    //bodyScrollLock[scrollLockMethod](document.body);
+    const scrollLockMethod = !isMenuOpen
+      ? 'disableBodyScroll'
+      : 'enableBodyScroll';
+    bodyScrollLock[scrollLockMethod](document.body);
   };
 
+  // buyNowBtn.addEventListener('click', toggleMenu);
   openMenuBtn.addEventListener('click', toggleMenu);
   closeMenuBtn.addEventListener('click', toggleMenu);
 
