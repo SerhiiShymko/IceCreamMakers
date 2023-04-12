@@ -16,7 +16,7 @@
     bodyScrollLock[scrollLockMethod](document.body);
   };
 
-  // buyNowBtn.addEventListener('click', toggleMenu);
+  buyNowBtn.addEventListener('click', toggleMenu);
   openMenuBtn.addEventListener('click', toggleMenu);
   closeMenuBtn.addEventListener('click', toggleMenu);
 
