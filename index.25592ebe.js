@@ -1,2 +1,0 @@
-(()=>{const o={openModalBtn:document.querySelector("[data-modal-buynow-open]"),closeModalBtn:document.querySelector("[data-modal-buynow-close]"),modal:document.querySelector("[data-modal-buynow]")};function e(){o.modal.classList.toggle("is-hidden")}o.openModalBtn.addEventListener("click",e),o.closeModalBtn.addEventListener("click",e)})(),document.querySelector("[data-modal-open-mob-buy]"),document.querySelector("[data-modal-close-mob-buy]"),document.querySelector("[data-modal-mob-buy]");
-//# sourceMappingURL=index.25592ebe.js.map
