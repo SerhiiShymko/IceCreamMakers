@@ -90,15 +90,15 @@
   }
 }
 
-.ingredients-img {
+.ingredients-img,
+.ingredients-img__icecoffee,
+.ingredients-img__milkshakes {
   position: relative;
   width: 132px;
   height: 138px;
-  background: linear-gradient(
-      0deg,
+  background: linear-gradient(0deg,
       rgba(156, 190, 143, 0.7),
-      rgba(156, 190, 143, 0.7)
-    ),
+      rgba(156, 190, 143, 0.7)),
     #d9d9d9;
   box-shadow: 0px 5.26027px 19.726px rgba(10, 136, 23, 0.25);
   border-radius: 50%;
@@ -111,7 +111,24 @@
   }
 }
 
-.ingredients-img::after {
+.ingredients-img__icecoffee {
+  background: linear-gradient(0deg,
+      rgba(248, 210, 78, 0.7),
+      rgba(248, 210, 78, 0.7)), #d9d9d9;
+  box-shadow: 0px 11px 5.40397px 0px rgba(153, 114, 23, 0.25);
+}
+
+.ingredients-img__milkshakes {
+  background: linear-gradient(0deg,
+      rgba(213, 117, 63, 0.7),
+      rgba(213, 117, 63, 0.7)),
+    #d9d9d9;
+  box-shadow: 0px 11px 5.41333px 0px rgba(0, 0, 0, 0.25);
+}
+
+.ingredients-img::after,
+.ingredients-img__icecoffee::after,
+.ingredients-img__milkshakes::after {
   content: '';
   width: 132px;
   height: 132px;
@@ -164,7 +181,17 @@
   }
 }
 
-.ingredients-box--figure {
+.ingredients-box__item--creamice {
+  border: 2px solid #f8d24e;
+}
+
+.ingredients-box__item--creammilk {
+  border: 2px solid #d6936d;
+}
+
+.ingredients-box--figure,
+.ingredients-box--figureice,
+.ingredients-box--figuremilk {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -189,6 +216,16 @@
     width: 53px;
     height: 53px;
   }
+}
+
+.ingredients-box--figureice {
+  background: #f8d24e;
+  box-shadow: 0px 16px 8px 0px rgba(153, 114, 23, 0.25);
+}
+
+.ingredients-box--figuremilk {
+  background: #d6936d;
+  box-shadow: 0px 16px 8px 0px rgba(153, 114, 23, 0.25);
 }
 
 .ingredients-box--text {
@@ -221,9 +258,11 @@
 
   color: #131313;
 }
+
 .ingredient__list {
   padding-left: 0;
 }
+
 .ingredient__item {
   font-family: 'Montserrat';
   font-weight: 400;
@@ -277,6 +316,7 @@
     width: 368px;
   }
 }
+
 .modal-textarea {
   font-family: 'Montserrat';
   font-weight: 400;
